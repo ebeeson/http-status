@@ -1,0 +1,40 @@
+package restly.exceptions.successful;
+
+import restly.*;
+
+/**
+ * 200 OK
+ * <p/>
+ * <p>
+ * The request has succeeded. The information returned with the response
+ * is dependent on the method used in the request, for example:
+ * </p>
+ * <p>
+ * GET an entity corresponding to the requested resource is sent in
+ * the response;
+ * </p>
+ * <p>
+ * HEAD the entity-header fields corresponding to the requested
+ * resource are sent in the response without any message-body;
+ * </p>
+ * <p>
+ * POST an entity describing or containing the result of the action;
+ * </p>
+ * <p>
+ * TRACE an entity containing the request message as received by the
+ * end server.
+ * </p>
+ *
+ * @author <a href="http://restly.org/">Erik Beeson</a>
+ */
+public class OKException extends HttpSuccessfulException {
+	public static final HttpStatus HTTP_STATUS = HttpStatus.OK;
+
+	public OKException() {
+		this(null);
+	}
+
+	public OKException(Object data) {
+		super(HTTP_STATUS, data);
+	}
+}
