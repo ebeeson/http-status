@@ -685,8 +685,8 @@ public enum HttpStatus {
 	 * request to be conditional.
 	 * </p>
 	 * <p>
-	 * Its typical use is to avoid the "lost update" problem, where a client
-	 * GETs a resource's state, modifies it, and PUTs it back to the server,
+	 * Its typical use is to avoid the &quot;lost update&quot; problem, where a client
+	 * GETs a resource&apos;s state, modifies it, and PUTs it back to the server,
 	 * when meanwhile a third party has modified the state on the server,
 	 * leading to a conflict.  By requiring requests to be conditional, the
 	 * server can assure that clients are working with the correct copies.
@@ -700,7 +700,7 @@ public enum HttpStatus {
 	/**
 	 * <p>
 	 * The 429 status code indicates that the user has sent too many
-	 * requests in a given amount of time ("rate limiting").
+	 * requests in a given amount of time (&quot;rate limiting&quot;).
 	 * </p>
 	 * <p>
 	 * The response representations SHOULD include details explaining the

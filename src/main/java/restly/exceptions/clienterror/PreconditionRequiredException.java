@@ -10,8 +10,8 @@ import restly.HttpStatus;
  * request to be conditional.
  * </p>
  * <p>
- * Its typical use is to avoid the "lost update" problem, where a client
- * GETs a resource's state, modifies it, and PUTs it back to the server,
+ * Its typical use is to avoid the &quot;lost update&quot; problem, where a client
+ * GETs a resource&apos;s state, modifies it, and PUTs it back to the server,
  * when meanwhile a third party has modified the state on the server,
  * leading to a conflict.  By requiring requests to be conditional, the
  * server can assure that clients are working with the correct copies.
