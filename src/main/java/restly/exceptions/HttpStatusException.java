@@ -1,6 +1,6 @@
 package restly.exceptions;
 
-import restly.*;
+import restly.HttpStatus;
 
 /**
  * @author <a href="http://restly.org/">Erik Beeson</a>

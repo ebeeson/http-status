@@ -1,6 +1,6 @@
 package restly.exceptions.successful;
 
-import restly.*;
+import restly.HttpStatus;
 
 /**
  * 203 Non-Authoritative Information

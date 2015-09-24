@@ -1,6 +1,6 @@
 package restly.exceptions.redirection;
 
-import restly.*;
+import restly.HttpStatus;
 
 /**
  * 307 Temporary Redirect

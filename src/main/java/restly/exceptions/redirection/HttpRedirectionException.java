@@ -1,7 +1,7 @@
 package restly.exceptions.redirection;
 
-import restly.*;
-import restly.exceptions.*;
+import restly.HttpStatus;
+import restly.exceptions.HttpStatusException;
 
 /**
  * Feb 24, 2009 5:42:38 AM

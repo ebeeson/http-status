@@ -1,6 +1,6 @@
 package restly.exceptions.successful;
 
-import restly.*;
+import restly.HttpStatus;
 
 /**
  * 205 Reset Content

@@ -1,6 +1,6 @@
 package restly.exceptions.clienterror;
 
-import restly.*;
+import restly.HttpStatus;
 
 /**
  * 400 Bad Request

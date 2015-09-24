@@ -1,7 +1,7 @@
 package restly.exceptions.informational;
 
-import restly.*;
-import restly.exceptions.*;
+import restly.HttpStatus;
+import restly.exceptions.HttpStatusException;
 
 /**
  * Apr 10, 2009 5:56:06 AM

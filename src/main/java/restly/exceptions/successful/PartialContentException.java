@@ -1,6 +1,6 @@
 package restly.exceptions.successful;
 
-import restly.*;
+import restly.HttpStatus;
 
 /**
  * 206 Partial Content

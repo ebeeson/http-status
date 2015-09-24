@@ -1,6 +1,6 @@
 package restly.exceptions.servererror;
 
-import restly.*;
+import restly.HttpStatus;
 
 /**
  * 503 Service Unavailable

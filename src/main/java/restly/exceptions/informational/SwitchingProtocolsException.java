@@ -1,6 +1,6 @@
 package restly.exceptions.informational;
 
-import restly.*;
+import restly.HttpStatus;
 
 /**
  * 101 Switching Protocols
