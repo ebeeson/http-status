@@ -4,7 +4,12 @@ import restly.HttpStatus;
 import restly.exceptions.HttpStatusException;
 
 /**
- * Apr 10, 2009 6:02:09 AM
+ * 2xx Successful
+ * <p/>
+ * <p>
+ * This class of status code indicates that the client&apos;s request was
+ * successfully received, understood, and accepted.
+ * </p>
  *
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
