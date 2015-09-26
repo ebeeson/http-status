@@ -16,6 +16,7 @@ import restly.HttpStatus;
  *   observing these limitations has significant security consequences.
  * </pre>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.3.6">https://tools.ietf.org/html/rfc2616#section-10.3.6</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class UseProxyException extends HttpRedirectionException {

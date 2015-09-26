@@ -59,6 +59,7 @@ import restly.HttpStatus;
  * MUST NOT cache 206 (Partial) responses.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.2.7">https://tools.ietf.org/html/rfc2616#section-10.2.7</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class PartialContentException extends HttpSuccessfulException {

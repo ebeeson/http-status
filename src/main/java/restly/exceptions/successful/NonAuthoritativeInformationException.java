@@ -16,6 +16,7 @@ import restly.HttpStatus;
  * response would otherwise be 200 (OK).
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.2.4">https://tools.ietf.org/html/rfc2616#section-10.2.4</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class NonAuthoritativeInformationException extends HttpSuccessfulException {

@@ -28,6 +28,7 @@ import restly.HttpStatus;
  * change the conditions under which the request was issued.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.3.8">https://tools.ietf.org/html/rfc2616#section-10.3.8</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class TemporaryRedirectException extends HttpRedirectionException {

@@ -27,6 +27,7 @@ import restly.HttpStatus;
  * <p/>
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.17">https://tools.ietf.org/html/rfc2616#section-10.4.17</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class RequestedRangeNotSatisfiableException extends HttpClientErrorException {

@@ -12,6 +12,7 @@ import restly.HttpStatus;
  * any resource.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.5.2">https://tools.ietf.org/html/rfc2616#section-10.5.2</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class NotImplementedException extends HttpServerErrorException {

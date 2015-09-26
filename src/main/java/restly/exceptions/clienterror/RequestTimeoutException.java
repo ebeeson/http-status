@@ -11,6 +11,7 @@ import restly.HttpStatus;
  * modifications at any later time.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.9">https://tools.ietf.org/html/rfc2616#section-10.4.9</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class RequestTimeoutException extends HttpClientErrorException {

@@ -26,6 +26,7 @@ import restly.HttpStatus;
  * Responses with the 429 status code MUST NOT be stored by a cache.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc6585#section-4">https://tools.ietf.org/html/rfc6585#section-4</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class TooManyRequestsException extends HttpClientErrorException {

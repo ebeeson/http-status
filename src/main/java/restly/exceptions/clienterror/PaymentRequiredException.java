@@ -9,6 +9,7 @@ import restly.HttpStatus;
  * This code is reserved for future use.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.3">https://tools.ietf.org/html/rfc2616#section-10.4.3</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class PaymentRequiredException extends HttpClientErrorException {

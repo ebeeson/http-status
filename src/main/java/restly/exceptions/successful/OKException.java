@@ -25,6 +25,7 @@ import restly.HttpStatus;
  * end server.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.2.1">https://tools.ietf.org/html/rfc2616#section-10.2.1</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class OKException extends HttpSuccessfulException {

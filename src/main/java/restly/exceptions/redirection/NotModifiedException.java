@@ -53,6 +53,7 @@ import restly.HttpStatus;
  * the response.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.3.5">https://tools.ietf.org/html/rfc2616#section-10.3.5</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class NotModifiedException extends HttpRedirectionException {

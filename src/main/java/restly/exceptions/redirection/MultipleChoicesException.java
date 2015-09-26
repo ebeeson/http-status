@@ -31,6 +31,7 @@ import restly.HttpStatus;
  * redirection. This response is cacheable unless indicated otherwise.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.3.1">https://tools.ietf.org/html/rfc2616#section-10.3.1</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class MultipleChoicesException extends HttpRedirectionException {

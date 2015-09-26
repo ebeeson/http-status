@@ -11,6 +11,7 @@ import restly.HttpStatus;
  * for the requested method.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.16">https://tools.ietf.org/html/rfc2616#section-10.4.16</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class UnsupportedMediaTypeException extends HttpClientErrorException {

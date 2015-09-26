@@ -17,6 +17,7 @@ import restly.HttpStatus;
  * time the client MAY try again.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.14">https://tools.ietf.org/html/rfc2616#section-10.4.14</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class RequestEntityTooLargeException extends HttpClientErrorException {

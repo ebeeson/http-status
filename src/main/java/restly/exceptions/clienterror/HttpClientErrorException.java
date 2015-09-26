@@ -24,6 +24,7 @@ import restly.exceptions.HttpStatusException;
  * before they can be read and interpreted by the HTTP application.
  * </p>
  *
+ * @see <a href="http://tools.ietf.org/html/rfc2616#section-10.4">http://tools.ietf.org/html/rfc2616#section-10.4</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class HttpClientErrorException extends HttpStatusException {

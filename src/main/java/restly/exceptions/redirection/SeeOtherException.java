@@ -26,6 +26,7 @@ import restly.HttpStatus;
  *   to a 302 response as described here for 303.
  * </pre>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.3.4">https://tools.ietf.org/html/rfc2616#section-10.3.4</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class SeeOtherException extends HttpRedirectionException {

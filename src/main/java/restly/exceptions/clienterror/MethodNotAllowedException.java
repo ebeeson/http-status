@@ -12,6 +12,7 @@ import restly.HttpStatus;
  * resource.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.6">https://tools.ietf.org/html/rfc2616#section-10.4.6</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class MethodNotAllowedException extends HttpClientErrorException {

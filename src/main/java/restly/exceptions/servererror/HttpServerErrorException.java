@@ -16,6 +16,7 @@ import restly.exceptions.HttpStatusException;
  * user. These response codes are applicable to any request method.
  * </p>
  *
+ * @see <a href="http://tools.ietf.org/html/rfc2616#section-10.5">http://tools.ietf.org/html/rfc2616#section-10.5</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class HttpServerErrorException extends HttpStatusException {

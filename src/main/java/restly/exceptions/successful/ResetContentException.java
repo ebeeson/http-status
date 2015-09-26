@@ -14,6 +14,7 @@ import restly.HttpStatus;
  * response MUST NOT include an entity.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.2.6">https://tools.ietf.org/html/rfc2616#section-10.2.6</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class ResetContentException extends HttpSuccessfulException {

@@ -12,6 +12,7 @@ import restly.HttpStatus;
  * by the next-hop server.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.18">https://tools.ietf.org/html/rfc2616#section-10.4.18</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class ExpectationFailedException extends HttpClientErrorException {

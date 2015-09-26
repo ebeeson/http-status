@@ -11,6 +11,7 @@ import restly.HttpStatus;
  * modifications.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.1">https://tools.ietf.org/html/rfc2616#section-10.4.1</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class BadRequestException extends HttpClientErrorException {

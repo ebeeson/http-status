@@ -21,6 +21,7 @@ import restly.HttpStatus;
  * <p/>
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.1.1">https://tools.ietf.org/html/rfc2616#section-10.1.1</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class ContinueException extends HttpInformationalException {

@@ -25,6 +25,7 @@ import restly.HttpStatus;
  * terminated by the first empty line after the header fields.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.2.5">https://tools.ietf.org/html/rfc2616#section-10.2.5</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class NoContentException extends HttpSuccessfulException {

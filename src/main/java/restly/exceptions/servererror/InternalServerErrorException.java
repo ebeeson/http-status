@@ -10,6 +10,7 @@ import restly.HttpStatus;
  * from fulfilling the request.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.5.1">https://tools.ietf.org/html/rfc2616#section-10.5.1</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class InternalServerErrorException extends HttpServerErrorException {

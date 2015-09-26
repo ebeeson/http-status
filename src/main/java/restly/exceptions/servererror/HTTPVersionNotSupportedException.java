@@ -20,6 +20,7 @@ import restly.HttpStatus;
  * <p/>
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.5.6">https://tools.ietf.org/html/rfc2616#section-10.5.6</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class HTTPVersionNotSupportedException extends HttpServerErrorException {

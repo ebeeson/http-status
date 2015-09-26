@@ -32,6 +32,7 @@ import restly.HttpStatus;
  * decision on further actions.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.7">https://tools.ietf.org/html/rfc2616#section-10.4.7</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class NotAcceptableException extends HttpClientErrorException {

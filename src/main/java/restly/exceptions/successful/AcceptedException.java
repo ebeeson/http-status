@@ -23,6 +23,7 @@ import restly.HttpStatus;
  * user can expect the request to be fulfilled.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.2.3">https://tools.ietf.org/html/rfc2616#section-10.2.3</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class AcceptedException extends HttpSuccessfulException {

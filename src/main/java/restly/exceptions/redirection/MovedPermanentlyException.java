@@ -30,6 +30,7 @@ import restly.HttpStatus;
  *   will erroneously change it into a GET request.
  * </pre>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.3.2">https://tools.ietf.org/html/rfc2616#section-10.3.2</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class MovedPermanentlyException extends HttpRedirectionException {

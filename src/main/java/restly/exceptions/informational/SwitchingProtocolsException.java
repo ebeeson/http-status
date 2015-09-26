@@ -21,6 +21,7 @@ import restly.HttpStatus;
  * such features.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.1.2">https://tools.ietf.org/html/rfc2616#section-10.1.2</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class SwitchingProtocolsException extends HttpInformationalException {

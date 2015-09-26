@@ -33,6 +33,7 @@ import restly.HttpStatus;
  *   kind of reaction is expected of the client.
  * </pre>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.3.3">https://tools.ietf.org/html/rfc2616#section-10.3.3</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class FoundException extends HttpRedirectionException {

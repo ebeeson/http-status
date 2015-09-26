@@ -18,6 +18,7 @@ import restly.HttpStatus;
  *   to simply refuse the connection.
  * </pre>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.5.4">https://tools.ietf.org/html/rfc2616#section-10.5.4</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class ServiceUnavailableException extends HttpServerErrorException {

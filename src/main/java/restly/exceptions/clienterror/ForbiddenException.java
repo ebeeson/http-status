@@ -15,6 +15,7 @@ import restly.HttpStatus;
  * (Not Found) can be used instead.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.4">https://tools.ietf.org/html/rfc2616#section-10.4.4</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class ForbiddenException extends HttpClientErrorException {

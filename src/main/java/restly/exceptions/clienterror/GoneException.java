@@ -26,6 +26,7 @@ import restly.HttpStatus;
  * discretion of the server owner.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.11">https://tools.ietf.org/html/rfc2616#section-10.4.11</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class GoneException extends HttpClientErrorException {

@@ -10,6 +10,7 @@
  * such loops generate network traffic for each redirection.
  * </p>
  *
+ * @see <a href="http://tools.ietf.org/html/rfc2616#section-10.3">http://tools.ietf.org/html/rfc2616#section-10.3</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 package restly.exceptions.redirection;

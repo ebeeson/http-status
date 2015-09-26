@@ -17,6 +17,7 @@ import restly.HttpStatus;
  * buffers for reading or manipulating the Request-URI.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.15">https://tools.ietf.org/html/rfc2616#section-10.4.15</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class RequestURITooLongException extends HttpClientErrorException {

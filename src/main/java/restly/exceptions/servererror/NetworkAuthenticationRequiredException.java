@@ -28,6 +28,7 @@ import restly.HttpStatus;
  * Responses with the 511 status code MUST NOT be stored by a cache.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc6585#section-6">https://tools.ietf.org/html/rfc6585#section-6</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class NetworkAuthenticationRequiredException extends HttpServerErrorException {

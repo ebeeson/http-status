@@ -28,6 +28,7 @@ import restly.HttpStatus;
  * Content-Type.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.10">https://tools.ietf.org/html/rfc2616#section-10.4.10</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class ConflictException extends HttpClientErrorException {

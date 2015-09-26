@@ -21,6 +21,7 @@ import restly.HttpStatus;
  * request successfully.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc6585#section-3">https://tools.ietf.org/html/rfc6585#section-3</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class PreconditionRequiredException extends HttpClientErrorException {

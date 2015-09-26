@@ -11,6 +11,7 @@ import restly.HttpStatus;
  * fulfill the request.
  * </p>
  *
+ * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.5.3">https://tools.ietf.org/html/rfc2616#section-10.5.3</a>
  * @author <a href="http://restly.org/">Erik Beeson</a>
  */
 public class BadGatewayException extends HttpServerErrorException {
