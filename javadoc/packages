@@ -1,0 +1,7 @@
+restly.exceptions.clienterror
+restly.exceptions
+restly.exceptions.informational
+restly.exceptions.redirection
+restly.exceptions.servererror
+restly.exceptions.successful
+restly

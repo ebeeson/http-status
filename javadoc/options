@@ -1,0 +1,22 @@
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/erik/projects/github/restly/http-status/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2015. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/erik/projects/github/restly/http-status/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'org.restly:http-status 0.2.0-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/8/docs/api' '/Users/erik/projects/github/restly/http-status/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'org.restly:http-status 0.2.0-SNAPSHOT API'
