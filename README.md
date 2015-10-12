@@ -1,2 +1,4 @@
-# http-exceptions
-Java Exceptions to represent HTTP Status Codes.
+# http-status
+
+Java Constants and Exceptions to represent HTTP Status Codes.
+

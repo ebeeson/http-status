@@ -4,12 +4,12 @@
 	<packaging>jar</packaging>
 
 	<groupId>org.restly</groupId>
-	<artifactId>http-exceptions</artifactId>
+	<artifactId>http-status</artifactId>
 	<version>0.2.0-SNAPSHOT</version>
 
 	<name>${project.groupId}:${project.artifactId}</name>
 	<description>Java Exceptions to represent HTTP Status Codes</description>
-	<url>https://github.com/restly/http-exceptions</url>
+	<url>https://github.com/restly/http-status</url>
 
 	<licenses>
 		<license>
@@ -27,18 +27,15 @@
 	</developers>
 
 	<scm>
-		<connection>scm:git:git@github.com:restly/http-exceptions.git</connection>
-		<developerConnection>scm:git:git@github.com:restly/http-exceptions.git</developerConnection>
-		<url>git@github.com:restly/http-exceptions.git</url>
+		<connection>scm:git:git@github.com:restly/http-status.git</connection>
+		<developerConnection>scm:git:git@github.com:restly/http-status.git</developerConnection>
+		<url>git@github.com:restly/http-status.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-
-	<dependencies>
-	</dependencies>
 
 	<distributionManagement>
 		<snapshotRepository>
@@ -75,7 +72,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
-				<version>2.10.1</version>
+				<version>2.10.3</version>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
@@ -102,7 +99,7 @@
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nexus-staging-maven-plugin</artifactId>
-				<version>1.6.5</version>
+				<version>1.6.6</version>
 				<extensions>true</extensions>
 				<configuration>
 					<serverId>ossrh</serverId>
