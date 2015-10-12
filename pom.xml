@@ -8,8 +8,8 @@
 	<version>0.2.0-SNAPSHOT</version>
 
 	<name>${project.groupId}:${project.artifactId}</name>
-	<description>Java Exceptions to represent HTTP Status Codes</description>
-	<url>https://github.com/restly/http-status</url>
+	<description>Java Constants and Exceptions to represent HTTP Status Codes</description>
+	<url>http://restly.github.io/http-status/</url>
 
 	<licenses>
 		<license>
