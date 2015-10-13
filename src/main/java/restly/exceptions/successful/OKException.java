@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 200 OK
- * <p/>
+ *
  * <p>
  * The request has succeeded. The information returned with the response
  * is dependent on the method used in the request, for example:

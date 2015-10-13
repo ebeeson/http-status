@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 408 Request Timeout
- * <p/>
+ *
  * <p>
  * The client did not produce a request within the time that the server
  * was prepared to wait. The client MAY repeat the request without

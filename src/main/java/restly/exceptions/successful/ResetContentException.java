@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 205 Reset Content
- * <p/>
+ *
  * <p>
  * The server has fulfilled the request and the user agent SHOULD reset
  * the document view which caused the request to be sent. This response

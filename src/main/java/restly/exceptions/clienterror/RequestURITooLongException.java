@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 414 Request-URI Too Long
- * <p/>
+ *
  * <p>
  * The server is refusing to service the request because the Request-URI
  * is longer than the server is willing to interpret. This rare

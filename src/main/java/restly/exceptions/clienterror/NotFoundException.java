@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 404 Not Found
- * <p/>
+ *
  * <p>
  * The server has not found anything matching the Request-URI. No
  * indication is given of whether the condition is temporary or

@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 503 Service Unavailable
- * <p/>
+ *
  * <p>
  * The server is currently unable to handle the request due to a
  * temporary overloading or maintenance of the server. The implication

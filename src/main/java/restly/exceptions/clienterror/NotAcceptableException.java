@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 406 Not Acceptable
- * <p/>
+ *
  * <p>
  * The resource identified by the request is only capable of generating
  * response entities which have content characteristics not acceptable

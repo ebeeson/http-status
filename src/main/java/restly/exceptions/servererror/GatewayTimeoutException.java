@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 504 Gateway Timeout
- * <p/>
+ *
  * <p>
  * The server, while acting as a gateway or proxy, did not receive a
  * timely response from the upstream server specified by the URI (e.g.

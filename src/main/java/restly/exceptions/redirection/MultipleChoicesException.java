@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 300 Multiple Choices
- * <p/>
+ *
  * <p>
  * The requested resource corresponds to any one of a set of
  * representations, each with its own specific location, and agent-

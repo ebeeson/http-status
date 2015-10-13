@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 405 Method Not Allowed
- * <p/>
+ *
  * <p>
  * The method specified in the Request-Line is not allowed for the
  * resource identified by the Request-URI. The response MUST include an

@@ -5,7 +5,7 @@ import restly.exceptions.HttpStatusException;
 
 /**
  * 3xx Redirection
- * <p/>
+ *
  * <p>
  * This class of status code indicates that further action needs to be
  * taken by the user agent in order to fulfill the request.  The action

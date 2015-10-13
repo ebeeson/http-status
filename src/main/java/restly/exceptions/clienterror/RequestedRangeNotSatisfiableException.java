@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 416 Requested Range Not Satisfiable
- * <p/>
+ *
  * <p>
  * A server SHOULD return a response with this status code if a request
  * included a Range request-header field (section 14.35), and none of
@@ -15,16 +15,16 @@ import restly.HttpStatus;
  * current length of the selected resource.)
  * </p>
  * <p>
- * <p/>
+ *
  * When this status code is returned for a byte-range request, the
  * response SHOULD include a Content-Range entity-header field
  * specifying the current length of the selected resource (see section
- * <p/>
- * <a rel='xref' href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.16'>14.16</a>
+ *
+ * <a href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.16'>14.16</a>
  * ). This response MUST NOT use the multipart/byteranges
  * content-
  * type.
- * <p/>
+ *
  * </p>
  *
  * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.17">https://tools.ietf.org/html/rfc2616#section-10.4.17</a>

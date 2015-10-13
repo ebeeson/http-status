@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 305 Use Proxy
- * <p/>
+ *
  * <p>
  * The requested resource MUST be accessed through the proxy given by
  * the Location field. The Location field gives the URI of the proxy.

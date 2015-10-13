@@ -4,7 +4,7 @@ import restly.*;
 
 /**
  * 451 Unavailable For Legal Reasons
- * <p/>
+ *
  * <p>
  * This status code indicates that the server is denying access to the
  * resource as a consequence of a legal demand.

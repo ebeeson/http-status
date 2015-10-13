@@ -4,12 +4,12 @@ import restly.HttpStatus;
 
 /**
  * 101 Switching Protocols
- * <p/>
+ *
  * <p>
- * The server understands and is willing to comply with the client&apos;s
+ * The server understands and is willing to comply with the client's
  * request, via the Upgrade message header field (section 14.42), for a
  * change in the application protocol being used on this connection. The
- * server will switch protocols to those defined by the response&apos;s
+ * server will switch protocols to those defined by the response's
  * Upgrade header field immediately after the empty line which
  * terminates the 101 response.
  * </p>

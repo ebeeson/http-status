@@ -4,17 +4,17 @@ import restly.HttpStatus;
 
 /**
  * 206 Partial Content
- * <p/>
+ *
  * <p>
- * <p/>
+ *
  * The server has fulfilled the partial GET request for the resource.
  * The request MUST have included a Range header field (section 14.35)
  * indicating the desired range, and MAY have included an If-Range
  * header field (section
- * <a rel='xref' href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.27'>14.27</a>
+ * <a href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.27'>14.27</a>
  * ) to make the request
  * conditional.
- * <p/>
+ *
  * </p>
  * <p>
  * The response MUST include the following header fields:
@@ -46,13 +46,13 @@ import restly.HttpStatus;
  * with a 200 (OK) response to the same request.
  * </p>
  * <p>
- * <p/>
+ *
  * A cache MUST NOT combine a 206 response with other previously cached
  * content if the ETag or Last-Modified headers do not match exactly,
  * see
- * <a rel='xref' href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html#sec13.5.4'>13.5.4</a>
+ * <a href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html#sec13.5.4'>13.5.4</a>
  * .
- * <p/>
+ *
  * </p>
  * <p>
  * A cache that does not support the Range and Content-Range headers

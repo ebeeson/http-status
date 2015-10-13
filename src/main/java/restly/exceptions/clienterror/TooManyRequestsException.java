@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 429 Too Many Requests
- * <p/>
+ *
  * <p>
  * The 429 status code indicates that the user has sent too many
  * requests in a given amount of time (&quot;rate limiting&quot;).

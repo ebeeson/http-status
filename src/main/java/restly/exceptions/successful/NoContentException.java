@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 204 No Content
- * <p/>
+ *
  * <p>
  * The server has fulfilled the request but does not need to return an
  * entity-body, and might want to return updated metainformation. The
@@ -16,9 +16,9 @@ import restly.HttpStatus;
  * If the client is a user agent, it SHOULD NOT change its document view
  * from that which caused the request to be sent. This response is
  * primarily intended to allow input for actions to take place without
- * causing a change to the user agent&apos;s active document view, although
+ * causing a change to the user agent's active document view, although
  * any new or updated metainformation SHOULD be applied to the document
- * currently in the user agent&apos;s active view.
+ * currently in the user agent's active view.
  * </p>
  * <p>
  * The 204 response MUST NOT include a message-body, and thus is always

@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 301 Moved Permanently
- * <p/>
+ *
  * <p>
  * The requested resource has been assigned a new permanent URI and any
  * future references to this resource SHOULD use one of the returned

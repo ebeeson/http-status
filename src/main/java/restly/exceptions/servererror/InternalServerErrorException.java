@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 500 Internal Server Error
- * <p/>
+ *
  * <p>
  * The server encountered an unexpected condition which prevented it
  * from fulfilling the request.

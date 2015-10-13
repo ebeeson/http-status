@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 203 Non-Authoritative Information
- * <p/>
+ *
  * <p>
  * The returned metainformation in the entity-header is not the
  * definitive set as available from the origin server, but is gathered

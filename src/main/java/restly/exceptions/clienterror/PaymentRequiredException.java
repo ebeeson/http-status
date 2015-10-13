@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 402 Payment Required
- * <p/>
+ *
  * <p>
  * This code is reserved for future use.
  * </p>

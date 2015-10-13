@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 303 See Other
- * <p/>
+ *
  * <p>
  * The response to the request can be found under a different URI and
  * SHOULD be retrieved using a GET method on that resource. This method

@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 410 Gone
- * <p/>
+ *
  * <p>
  * The requested resource is no longer available at the server and no
  * forwarding address is known. This condition is expected to be
@@ -20,7 +20,7 @@ import restly.HttpStatus;
  * intentionally unavailable and that the server owners desire that
  * remote links to that resource be removed. Such an event is common for
  * limited-time, promotional services and for resources belonging to
- * individuals no longer working at the server&apos;s site. It is not
+ * individuals no longer working at the server's site. It is not
  * necessary to mark all permanently unavailable resources as &quot;gone&quot; or
  * to keep the mark for any length of time -- that is left to the
  * discretion of the server owner.

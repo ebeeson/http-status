@@ -1,6 +1,6 @@
 /**
  * 1xx Informational
- * <p/>
+ *
  * <p>
  * This class of status code indicates a provisional response,
  * consisting only of the Status-Line and optional headers, and is

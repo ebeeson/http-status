@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 307 Temporary Redirect
- * <p/>
+ *
  * <p>
  * The requested resource resides temporarily under a different URI.
  * Since the redirection MAY be altered on occasion, the client SHOULD

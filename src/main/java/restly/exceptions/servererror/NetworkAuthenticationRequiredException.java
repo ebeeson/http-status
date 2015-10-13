@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 511 Network Authentication Required
- * <p/>
+ *
  * <p>
  * The 511 status code indicates that the client needs to authenticate
  * to gain network access.

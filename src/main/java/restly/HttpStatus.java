@@ -28,10 +28,10 @@ public enum HttpStatus {
 	CONTINUE(100, "Continue"),
 	/**
 	 * <p>
-	 * The server understands and is willing to comply with the client&apos;s
+	 * The server understands and is willing to comply with the client's
 	 * request, via the Upgrade message header field (section 14.42), for a
 	 * change in the application protocol being used on this connection. The
-	 * server will switch protocols to those defined by the response&apos;s
+	 * server will switch protocols to those defined by the response's
 	 * Upgrade header field immediately after the empty line which
 	 * terminates the 101 response.
 	 * </p>
@@ -103,9 +103,9 @@ public enum HttpStatus {
 	 * The 202 response is intentionally non-committal. Its purpose is to
 	 * allow a server to accept a request for some other process (perhaps a
 	 * batch-oriented process that is only run once per day) without
-	 * requiring that the user agent&apos;s connection to the server persist
+	 * requiring that the user agent's connection to the server persist
 	 * until the process is completed. The entity returned with this
-	 * response SHOULD include an indication of the request&apos;s current status
+	 * response SHOULD include an indication of the request's current status
 	 * and either a pointer to a status monitor or some estimate of when the
 	 * user can expect the request to be fulfilled.
 	 * </p>
@@ -136,9 +136,9 @@ public enum HttpStatus {
 	 * If the client is a user agent, it SHOULD NOT change its document view
 	 * from that which caused the request to be sent. This response is
 	 * primarily intended to allow input for actions to take place without
-	 * causing a change to the user agent&apos;s active document view, although
+	 * causing a change to the user agent's active document view, although
 	 * any new or updated metainformation SHOULD be applied to the document
-	 * currently in the user agent&apos;s active view.
+	 * currently in the user agent's active view.
 	 * </p>
 	 * <p>
 	 * The 204 response MUST NOT include a message-body, and thus is always
@@ -561,7 +561,7 @@ public enum HttpStatus {
 	 * example, if versioning were being used and the entity being PUT
 	 * included changes to a resource which conflict with those made by an
 	 * earlier (third-party) request, the server might use the 409 response
-	 * to indicate that it can&apos;t complete the request. In this case, the
+	 * to indicate that it can't complete the request. In this case, the
 	 * response entity would likely contain a list of the differences
 	 * between the two versions in a format defined by the response
 	 * Content-Type.
@@ -584,7 +584,7 @@ public enum HttpStatus {
 	 * intentionally unavailable and that the server owners desire that
 	 * remote links to that resource be removed. Such an event is common for
 	 * limited-time, promotional services and for resources belonging to
-	 * individuals no longer working at the server&apos;s site. It is not
+	 * individuals no longer working at the server's site. It is not
 	 * necessary to mark all permanently unavailable resources as &quot;gone&quot; or
 	 * to keep the mark for any length of time -- that is left to the
 	 * discretion of the server owner.
@@ -686,7 +686,7 @@ public enum HttpStatus {
 	 * </p>
 	 * <p>
 	 * Its typical use is to avoid the &quot;lost update&quot; problem, where a client
-	 * GETs a resource&apos;s state, modifies it, and PUTs it back to the server,
+	 * GETs a resource's state, modifies it, and PUTs it back to the server,
 	 * when meanwhile a third party has modified the state on the server,
 	 * leading to a conflict.  By requiring requests to be conditional, the
 	 * server can assure that clients are working with the correct copies.

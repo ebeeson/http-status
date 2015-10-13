@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 501 Not Implemented
- * <p/>
+ *
  * <p>
  * The server does not support the functionality required to fulfill the
  * request. This is the appropriate response when the server does not

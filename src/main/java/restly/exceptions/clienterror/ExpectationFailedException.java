@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 417 Expectation Failed
- * <p/>
+ *
  * <p>
  * The expectation given in an Expect request-header field (see section
  * 14.20) could not be met by this server, or, if the server is a proxy,

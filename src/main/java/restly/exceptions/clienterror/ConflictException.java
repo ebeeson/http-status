@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 409 Conflict
- * <p/>
+ *
  * <p>
  * The request could not be completed due to a conflict with the current
  * state of the resource. This code is only allowed in situations where
@@ -22,7 +22,7 @@ import restly.HttpStatus;
  * example, if versioning were being used and the entity being PUT
  * included changes to a resource which conflict with those made by an
  * earlier (third-party) request, the server might use the 409 response
- * to indicate that it can&apos;t complete the request. In this case, the
+ * to indicate that it can't complete the request. In this case, the
  * response entity would likely contain a list of the differences
  * between the two versions in a format defined by the response
  * Content-Type.

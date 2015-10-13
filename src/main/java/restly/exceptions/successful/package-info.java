@@ -1,8 +1,8 @@
 /**
  * 2xx Successful
- * <p/>
+ *
  * <p>
- * This class of status code indicates that the client&apos;s request was
+ * This class of status code indicates that the client's request was
  * successfully received, understood, and accepted.
  * </p>
  *

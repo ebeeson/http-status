@@ -1,6 +1,6 @@
 /**
  * 5xx Server Error
- * <p/>
+ *
  * <p>
  * Response status codes beginning with the digit &quot;5&quot; indicate cases in
  * which the server is aware that it has erred or is incapable of

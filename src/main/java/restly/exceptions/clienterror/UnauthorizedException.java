@@ -4,14 +4,14 @@ import restly.HttpStatus;
 
 /**
  * 401 Unauthorized
- * <p/>
+ *
  * <p>
- * <p/>
+ *
  * The request requires user authentication. The response MUST include a
  * WWW-Authenticate header field (section 14.47) containing a challenge
  * applicable to the requested resource. The client MAY repeat the
  * request with a suitable Authorization header field (section
- * <a rel='xref' href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8'>14.8</a>
+ * <a href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.8'>14.8</a>
  * ). If
  * the request already included Authorization credentials, then the 401
  * response indicates that authorization has been refused for those
@@ -22,9 +22,9 @@ import restly.HttpStatus;
  * include relevant diagnostic information. HTTP access authentication
  * is explained in &quot;HTTP Authentication: Basic and Digest Access
  * Authentication&quot;
- * <a rel='bibref' href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec17.html#bib43'>[43]</a>
+ * <a href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec17.html#bib43'>[43]</a>
  * .
- * <p/>
+ *
  * </p>
  *
  * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.4.2">https://tools.ietf.org/html/rfc2616#section-10.4.2</a>

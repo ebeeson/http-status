@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 403 Forbidden
- * <p/>
+ *
  * <p>
  * The server understood the request, but is refusing to fulfill it.
  * Authorization will not help and the request SHOULD NOT be repeated.

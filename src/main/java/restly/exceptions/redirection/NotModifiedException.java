@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 304 Not Modified
- * <p/>
+ *
  * <p>
  * If the client has performed a conditional GET request and access is
  * allowed, but the document has not been modified, the server SHOULD
@@ -18,15 +18,15 @@ import restly.HttpStatus;
  * <pre>      - Date, unless its omission is required by section 14.18.1
  * </pre>
  * <p>
- * <p/>
+ *
  * If a clockless origin server obeys these rules, and proxies and
  * clients add their own Date to any response received without one (as
  * already specified by [RFC 2068], section
- * <a rel='xref' href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19'>14.19</a>
+ * <a href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19'>14.19</a>
  * ), caches
  * will operate
  * correctly.
- * <p/>
+ *
  * </p>
  * <pre>      - ETag and/or Content-Location, if the header would have been sent
  * 	in a 200 response to the same request

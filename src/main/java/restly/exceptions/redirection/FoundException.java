@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 302 Found
- * <p/>
+ *
  * <p>
  * The requested resource resides temporarily under a different URI.
  * Since the redirection might be altered on occasion, the client SHOULD

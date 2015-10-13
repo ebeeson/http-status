@@ -4,7 +4,7 @@ import restly.HttpStatus;
 
 /**
  * 201 Created
- * <p/>
+ *
  * <p>
  * The request has been fulfilled and resulted in a new resource being
  * created. The newly created resource can be referenced by the URI(s)
@@ -19,13 +19,13 @@ import restly.HttpStatus;
  * respond with 202 (Accepted) response instead.
  * </p>
  * <p>
- * <p/>
+ *
  * A 201 response MAY contain an ETag response header field indicating
  * the current value of the entity tag for the requested variant just
  * created, see section
- * <a rel='xref' href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19'>14.19</a>
+ * <a href='http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html#sec14.19'>14.19</a>
  * .
- * <p/>
+ *
  * </p>
  *
  * @see <a href="https://tools.ietf.org/html/rfc2616#section-10.2.2">https://tools.ietf.org/html/rfc2616#section-10.2.2</a>
